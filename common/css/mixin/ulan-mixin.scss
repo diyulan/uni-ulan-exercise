@@ -1,0 +1,41 @@
+/* nvue默认是flex布局 */
+@mixin ulan-flex($flexDirection:row, $flexWrap:wrap, $justifyContent:space-between, $alignItems:center){
+	/* #ifndef APP-PLUS-NVUE */
+	display: flex;
+	/* #endif */
+	flex-direction: $flexDirection;
+	flex-wrap: $flexWrap;
+	justify-content: $justifyContent;
+	align-items: $alignItems;
+}
+
+@mixin ulan-border($width:3rpx, $style:solid, $color:#999999){
+	border-width: $width;
+	border-style: $style;
+	border-color: $color;
+}
+
+@mixin ulan-margin($top:0rpx, $right:0rpx, $bottom:0rpx, $left:0rpx){
+	margin-top: $top;
+	margin-right: $right;
+	margin-bottom: $bottom;
+	margin-left: $left;
+}
+
+@mixin ulan-padding($top:0rpx, $right:0rpx, $bottom:0rpx, $left:0rpx){
+	padding-top: $top;
+	padding-right: $right;
+	padding-bottom: $bottom;
+	padding-left: $left;
+}
+
+@mixin ulan-container-size($widht:750rpx, $height:0) {
+	width: $widht;
+	@if $height == 0 {
+		/* #ifndef APP-PLUS-NVUE */
+		height: auto;
+		/* #endif */
+	}@else {
+		height: $height;
+	}
+}

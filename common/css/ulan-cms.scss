@@ -1,0 +1,105 @@
+/* 文字尺寸 */
+$ulan-font-size-md: 24rpx;
+$ulan-font-size-base: 28rpx;
+$ulan-font-size-lg: 32rpx;
+$ulan-font-size-hg: 36rpx;
+$ulan-font-size-mx: 48rpx;
+
+/* 文字颜色 */
+$ulan-text-color-red: #ed1c24;
+$ulan-text-color-grey: #333333;
+$ulan-text-color-deep-grey: #666666;
+$ulan-text-color-shallow-grey: #999999;
+$ulan-text-color-white: #FFFFFF;
+
+/* 背景颜色 */
+$ulan-bg-color-white: #FFFFFF;
+$ulan-bg-color-pink: #FFC0CB;
+$ulan-bg-color-red: #fe023b;
+$ulan-bg-color-yellow: #FFFF00;
+$ulan-bg-color-orange: #FFA500;
+$ulan-bg-color-blue: #0000FF;
+$ulan-bg-color-deep-sky-blue: #00BFFF;
+$ulan-bg-color-black: #000000;
+$ulan-bg-color-white-smoke: #F5F5F5;
+$ulan-bg-color-mask-white: rgba(255, 255, 255, 0.3);	//遮罩颜色
+
+/* 图标尺寸 */
+$ulan-icon-size-mi: 20rpx;
+$ulan-icon-size-sm: 40rpx;
+$ulan-icon-size-md: 50rpx;
+$ulan-icon-size-base: 80rpx;
+$ulan-icon-size-lg: 120rpx;
+$ulan-icon-size-hg: 160rpx;
+$ulan-icon-size-mx: 200rpx;
+
+/* 边框半径 */
+$ulan-border-radius-mi: 8rpx;
+$ulan-border-radius-base: 12rpx;
+$ulan-border-radius-hg: 40rpx;
+$ulan-border-radius-circle: 100rpx;
+
+/* 边框颜色 */
+$ulan-border-color-theme: #3fc1c9;
+$ulan-border-color-deep-sky-blue: #00BFFF;
+$ulan-border-color-red: #fe023b;
+$ulan-border-color-grey: #333333;
+$ulan-border-color-deep-grey: #666666;
+$ulan-border-color-shallow-grey: #999999;
+$ulan-border-color-white-smoke: #F5F5F5;
+
+/* 内容边距 */
+$ulan-padding-size-md: 10rpx;
+$ulan-padding-size-base: 20rpx;
+$ulan-padding-size-lg: 30rpx;
+$ulan-padding-size-hg: 40rpx;
+
+/* 水平间距 */
+$ulan-spacing-row-mi: 8rpx;
+$ulan-spacing-row-sm: 10rpx;
+$ulan-spacing-row-base: 12rpx;
+$ulan-spacing-row-lg: 20rpx;
+
+/* 垂直间距 */
+$ulan-spacing-col-mi: 6rpx;
+$ulan-spacing-col-sm: 8rpx;
+$ulan-spacing-col-base: 12rpx;
+$ulan-spacing-col-lg: 20rpx;
+$ulan-spacing-col-mx: 30rpx;
+
+/* 透明度 */
+$ulan-opacity-disabled: 0.3;	// 组件禁用态的透明度
+
+/* 行为相关颜色 */
+$ulan-type-primary: #2979ff;
+$ulan-type-primary-light: #ecf5ff;
+$ulan-type-primary-disabled: #a0cfff;
+$ulan-type-primary-dark: #2b85e4;
+
+$ulan-type-warning: #ff9900;
+$ulan-type-warning-disabled: #fcbd71;
+$ulan-type-warning-dark: #f29100;
+$ulan-type-warning-light: #fdf6ec;
+
+$ulan-type-success: #19be6b;
+$ulan-type-success-disabled: #71d5a1;
+$ulan-type-success-dark: #18b566;
+$ulan-type-success-light: #dbf1e1;
+
+$ulan-type-error: #fa3534;
+$ulan-type-error-disabled: #fab6b6;
+$ulan-type-error-dark: #dd6161;
+$ulan-type-error-light: #fef0f0;
+
+$ulan-type-info: #909399;
+$ulan-type-info-disabled: #c8c9cc;
+$ulan-type-info-dark: #82848a;
+$ulan-type-info-light: #f4f4f5;
+
+/* 文章场景相关 */
+$ulan-post-color-title: #2C405A;	// 文章标题颜色
+$ulan-post-font-size-title: 40rpx;
+$ulan-post-color-subtitle: #555555;	// 二级标题颜色
+$ulan-post-font-size-subtitle: 36rpx;
+$ulan-post-color-paragraph: #3F536E;	// 文章段落颜色
+$ulan-post-font-size-paragraph: 32rpx;

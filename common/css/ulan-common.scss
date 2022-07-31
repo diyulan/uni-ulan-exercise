@@ -1,0 +1,17 @@
+/* 设置其他平台元素跟nvue元素一样的特性 */
+/* #ifndef APP-PLUS-NVUE */
+view, input, image, scroll-view, swiper, swiper-item, text, textarea, video {
+	position: relative;
+	box-sizing: border-box;
+}
+image {
+	display: inline-block;
+}
+/* #endif */
+
+
+/*  #ifdef APP-PLUS-NVUE */
+view {
+	flex-direction: row;
+}
+/* #endif */

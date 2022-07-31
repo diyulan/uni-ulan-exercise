@@ -1,0 +1,81 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "Hi, 幽蓝",
+				"navigationBarBackgroundColor": "#3fc1c9",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/consult/consult",
+			"style": {
+				"navigationBarTitleText": "留言",
+				"navigationBarBackgroundColor": "#3fc1c9",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/connect/connect",
+			"style": {
+				"navigationBarTitleText": "联系",
+				"navigationBarBackgroundColor": "#3fc1c9",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor": "#3fc1c9",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/web/web",
+			"style": {
+				"navigationBarTitleText": "web页面"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#bfbfbf",
+		"selectedColor": "#3fc1c9",
+		"backgroundColor": "#fff",
+		"borderStyle": "white",
+		"height": "120rpx",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/tabBar/icon_home.png",
+				"selectedIconPath": "static/images/tabBar/icon_home_active.png",
+				"text": "主页"
+			},
+			{
+				"pagePath": "pages/consult/consult",
+				"iconPath": "static/images/tabBar/icon_consult.png",
+				"selectedIconPath": "static/images/tabBar/icon_consult_active.png",
+				"text": "留言"
+			},
+			{
+				"pagePath": "pages/connect/connect",
+				"iconPath": "static/images/tabBar/icon_connect.png",
+				"selectedIconPath": "static/images/tabBar/icon_connect_active.png",
+				"text": "联系"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"iconPath": "static/images/tabBar/icon_me.png",
+				"selectedIconPath": "static/images/tabBar/icon_me_active.png",
+				"text": "我的"
+			}
+		]
+	}
+}

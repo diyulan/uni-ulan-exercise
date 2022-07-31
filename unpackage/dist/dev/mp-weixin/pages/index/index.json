@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "Hi, 幽蓝",
+  "navigationBarBackgroundColor": "#3fc1c9",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "banner": "../../components/banner/banner",
+    "nav-icon": "../../components/nav-icon/nav-icon",
+    "case-exhibit": "../../components/case-exhibit/case-exhibit",
+    "news-centre": "../../components/news-centre/news-centre",
+    "video-exhibit": "../../components/video-exhibit/video-exhibit",
+    "photo-exhibit": "../../components/photo-exhibit/photo-exhibit"
+  }
+}
